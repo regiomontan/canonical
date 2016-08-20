@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="fltk_shablon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/canon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
+					<Add directory="D:/FLTK_64/include" />
+					<Add directory="D:/FLTK_64/lib" />
+					<Add directory="D:/FLTK_64/include/FL" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add library="D:/FLTK_64/lib/libfltk.a" />
+					<Add library="D:/FLTK_64/lib/libfltk_forms.a" />
+					<Add library="D:/FLTK_64/lib/libfltk_gl.a" />
+					<Add library="D:/FLTK_64/lib/libfltk_images.a" />
+					<Add library="D:/FLTK_64/lib/libfltk_jpeg.a" />
+					<Add library="D:/FLTK_64/lib/libfltk_png.a" />
+					<Add library="D:/FLTK_64/lib/libfltk_z.a" />
+					<Add directory="D:/FLTK_64/include" />
+					<Add directory="D:/FLTK_64/include/FL" />
+					<Add directory="D:/FLTK_64/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-m64" />
+			<Add option="-mms-bitfields" />
+			<Add option="-DWIN32" />
+		</Compiler>
+		<Linker>
+			<Add option="-m64" />
+			<Add option="-lfltk_images" />
+			<Add option="-lfltk_png" />
+			<Add option="-lfltk_jpeg" />
+			<Add option="-lfltk" />
+			<Add library="fltk" />
+			<Add library="ole32" />
+			<Add library="uuid" />
+			<Add library="comctl32" />
+			<Add library="wsock32" />
+			<Add library="m" />
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+		</Linker>
+		<Unit filename="functions.cpp" />
+		<Unit filename="functions.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main_form.cpp" />
+		<Unit filename="main_form.h" />
+		<Unit filename="muparser/muParser.cpp" />
+		<Unit filename="muparser/muParser.h" />
+		<Unit filename="muparser/muParserBase.cpp" />
+		<Unit filename="muparser/muParserBase.h" />
+		<Unit filename="muparser/muParserBytecode.cpp" />
+		<Unit filename="muparser/muParserBytecode.h" />
+		<Unit filename="muparser/muParserCallback.cpp" />
+		<Unit filename="muparser/muParserCallback.h" />
+		<Unit filename="muparser/muParserDef.h" />
+		<Unit filename="muparser/muParserError.cpp" />
+		<Unit filename="muparser/muParserError.h" />
+		<Unit filename="muparser/muParserFixes.h" />
+		<Unit filename="muparser/muParserStack.h" />
+		<Unit filename="muparser/muParserTemplateMagic.h" />
+		<Unit filename="muparser/muParserToken.h" />
+		<Unit filename="muparser/muParserTokenReader.cpp" />
+		<Unit filename="muparser/muParserTokenReader.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="str_numb_convert.cpp" />
+		<Unit filename="str_numb_convert.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

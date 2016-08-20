@@ -1,0 +1,538 @@
+# depslib dependency file v1.0
+1361604246 source:d:\__vz\_temp\_canon\functions.cpp
+	"functions.h"
+	"muparser/muParser.h"
+	<FL/fl_ask.H>
+	<cstring>
+
+1361482194 d:\__vz\_temp\_canon\functions.h
+	<FL/Fl_Text_Buffer.H>
+	"str_numb_convert.h"
+
+1361647438 d:\__vz\_temp\_canon\str_numb_convert.h
+	<iostream>
+	<sstream>
+	<typeinfo>
+
+1361482296 source:d:\__vz\_temp\_canon\main.cpp
+	"main_form.h"
+
+1361509840 d:\__vz\_temp\_canon\main_form.h
+	<FL/Fl.H>
+	<Fl/Fl_Window.h>
+	<Fl/Fl_Return_Button.h>
+	<Fl/Fl_Toggle_Button.H>
+	<Fl/Fl_Input.H>
+	<Fl/Fl_Int_Input.h>
+	<Fl/Fl_Simple_Counter.h>
+	<FL/Fl_Text_Buffer.H>
+	<Fl/Fl_Text_Display.h>
+	<Fl/Fl_Help_Dialog.H>
+	<iostream>
+	<cstring>
+
+1361565818 source:d:\__vz\_temp\_canon\main_form.cpp
+	"main_form.h"
+	<FL/fl_ask.H>
+	"resource.h"
+	<fstream>
+	"functions.h"
+
+1252848750 d:\__vz\_temp\_canon\resource.h
+
+1252848780 source:d:\__vz\_temp\_canon\resource.rc
+	"resource.h"
+
+1356704548 source:d:\__vz\_temp\_canon\str_numb_convert.cpp
+	"str_numb_convert.h"
+
+1361400842 d:\__vz\_temp\_canon\muparser\muparser.h
+	<vector>
+	"muParserBase.h"
+	"muParserTemplateMagic.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparserbase.h
+	<cmath>
+	<string>
+	<iostream>
+	<map>
+	<memory>
+	<locale>
+	"muParserDef.h"
+	"muParserStack.h"
+	"muParserTokenReader.h"
+	"muParserBytecode.h"
+	"muParserError.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparserdef.h
+	<iostream>
+	<string>
+	<sstream>
+	<map>
+	"muParserFixes.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparserfixes.h
+
+1327246914 d:\__vz\_temp\_canon\muparser\muparserstack.h
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	"muParserError.h"
+	"muParserToken.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparsererror.h
+	<cassert>
+	<stdexcept>
+	<string>
+	<sstream>
+	<vector>
+	<memory>
+	"muParserDef.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparsertoken.h
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	<memory>
+	"muParserError.h"
+	"muParserCallback.h"
+
+1327246964 d:\__vz\_temp\_canon\muparser\muparsercallback.h
+	"muParserDef.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparsertokenreader.h
+	<cassert>
+	<cstdio>
+	<cstring>
+	<list>
+	<map>
+	<memory>
+	<stack>
+	<string>
+	"muParserDef.h"
+	"muParserToken.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparserbytecode.h
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	"muParserDef.h"
+	"muParserError.h"
+	"muParserToken.h"
+
+1356169646 d:\__vz\_temp\_canon\muparser\muparsertemplatemagic.h
+	<cmath>
+	"muParserError.h"
+
+1356169646 source:d:\__vz\_temp\_canon\muparser\muparser.cpp
+	"muParser.h"
+	"muParserTemplateMagic.h"
+	<cmath>
+	<algorithm>
+	<numeric>
+
+1359728242 source:d:\__vz\_temp\_canon\muparser\muparserbase.cpp
+	"muParserBase.h"
+	"muParserTemplateMagic.h"
+	<cassert>
+	<cmath>
+	<memory>
+	<vector>
+	<deque>
+	<sstream>
+	<locale>
+	<omp.h>
+
+1359728296 source:d:\__vz\_temp\_canon\muparser\muparserbytecode.cpp
+	"muParserBytecode.h"
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	<iostream>
+	"muParserDef.h"
+	"muParserError.h"
+	"muParserToken.h"
+	"muParserStack.h"
+	"muParserTemplateMagic.h"
+
+1327246914 source:d:\__vz\_temp\_canon\muparser\muparsercallback.cpp
+	"muParserCallback.h"
+
+1356169646 source:d:\__vz\_temp\_canon\muparser\muparsererror.cpp
+	"muParserError.h"
+
+1356169646 source:d:\__vz\_temp\_canon\muparser\muparsertokenreader.cpp
+	<cassert>
+	<cstdio>
+	<cstring>
+	<map>
+	<stack>
+	<string>
+	"muParserTokenReader.h"
+	"muParserBase.h"
+
+1361665304 source:d:\_vz\_current\functions.cpp
+	"functions.h"
+	"muparser/muParser.h"
+	<FL/fl_ask.H>
+	<cstring>
+
+1442338831 d:\_vz\_current\functions.h
+	<Fl/Fl_Text_Buffer.H>
+	"str_numb_convert.h"
+
+1376322417 d:\fltk_64\include\fl\fl_text_buffer.h
+	<assert.h>
+	"Fl_Export.H"
+
+1408624188 d:\fltk_64\include\fl\fl_export.h
+
+1471719154 d:\_vz\_current\str_numb_convert.h
+	<iostream>
+	<sstream>
+	<typeinfo>
+
+1361404442 d:\_vz\_current\muparser\muparser.h
+	<vector>
+	"muParserBase.h"
+	"muParserTemplateMagic.h"
+
+1471718802 d:\_vz\_current\muparser\muparserbase.h
+	<cmath>
+	<string>
+	<iostream>
+	<map>
+	<memory>
+	<locale>
+	"muParserDef.h"
+	"muParserStack.h"
+	"muParserTokenReader.h"
+	"muParserBytecode.h"
+	"muParserError.h"
+
+1356173246 d:\_vz\_current\muparser\muparserdef.h
+	<iostream>
+	<string>
+	<sstream>
+	<map>
+	"muParserFixes.h"
+
+1356173246 d:\_vz\_current\muparser\muparserfixes.h
+
+1327250514 d:\_vz\_current\muparser\muparserstack.h
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	"muParserError.h"
+	"muParserToken.h"
+
+1356173246 d:\_vz\_current\muparser\muparsererror.h
+	<cassert>
+	<stdexcept>
+	<string>
+	<sstream>
+	<vector>
+	<memory>
+	"muParserDef.h"
+
+1471718764 d:\_vz\_current\muparser\muparsertoken.h
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	<memory>
+	"muParserError.h"
+	"muParserCallback.h"
+
+1327250564 d:\_vz\_current\muparser\muparsercallback.h
+	"muParserDef.h"
+
+1356173246 d:\_vz\_current\muparser\muparsertokenreader.h
+	<cassert>
+	<cstdio>
+	<cstring>
+	<list>
+	<map>
+	<memory>
+	<stack>
+	<string>
+	"muParserDef.h"
+	"muParserToken.h"
+
+1356173246 d:\_vz\_current\muparser\muparserbytecode.h
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	"muParserDef.h"
+	"muParserError.h"
+	"muParserToken.h"
+
+1356173246 d:\_vz\_current\muparser\muparsertemplatemagic.h
+	<cmath>
+	"muParserError.h"
+
+1355245601 d:\fltk_64\include\fl\fl_ask.h
+	"Enumerations.H"
+
+1413406820 d:\fltk_64\include\fl\enumerations.h
+	"Fl_Export.H"
+	"fl_types.h"
+
+1311050970 d:\fltk_64\include\fl\fl_types.h
+
+1361485896 source:d:\_vz\_current\main.cpp
+	"main_form.h"
+
+1361513440 d:\_vz\_current\main_form.h
+	<FL/Fl.H>
+	<Fl/Fl_Window.h>
+	<Fl/Fl_Return_Button.h>
+	<Fl/Fl_Toggle_Button.H>
+	<Fl/Fl_Input.H>
+	<Fl/Fl_Int_Input.h>
+	<Fl/Fl_Simple_Counter.h>
+	<FL/Fl_Text_Buffer.H>
+	<Fl/Fl_Text_Display.h>
+	<Fl/Fl_Help_Dialog.H>
+	<iostream>
+	<cstring>
+
+1414685122 d:\fltk_64\include\fl\fl.h
+	<FL/Fl_Cairo.H>
+	"fl_utf8.h"
+	"Enumerations.H"
+
+1311050970 d:\fltk_64\include\fl\fl_cairo.h
+	<FL/Fl_Export.H>
+	<cairo-xlib.h>
+	<cairo-win32.h>
+	<cairo-quartz.h>
+
+1409218447 d:\fltk_64\include\fl\fl_utf8.h
+	"Fl_Export.H"
+	"fl_types.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<locale.h>
+	<ctype.h>
+	<wchar.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<X11/Xlocale.h>
+	<X11/Xlib.h>
+	<locale.h>
+
+1414592468 d:\fltk_64\include\fl\fl_window.h
+	<windows.h>
+	"Fl_Group.H"
+	"Fl_Bitmap.H"
+	<stdlib.h>
+
+1409314211 d:\fltk_64\include\fl\fl_group.h
+	"Fl_Widget.H"
+
+1471718926 d:\fltk_64\include\fl\fl_widget.h
+	"Enumerations.H"
+	<stdint.h>
+	<stddef.h>
+
+1393080710 d:\fltk_64\include\fl\fl_bitmap.h
+	"Fl_Image.H"
+
+1413293579 d:\fltk_64\include\fl\fl_image.h
+	"Enumerations.H"
+	<stdlib.h>
+
+1343104642 d:\fltk_64\include\fl\fl_return_button.h
+	"Fl_Button.H"
+
+1413749837 d:\fltk_64\include\fl\fl_button.h
+	"Fl_Widget.H"
+
+1343104642 d:\fltk_64\include\fl\fl_toggle_button.h
+	"Fl_Button.H"
+
+1311050970 d:\fltk_64\include\fl\fl_input.h
+	"Fl_Input_.H"
+
+1398740194 d:\fltk_64\include\fl\fl_input_.h
+	"Fl_Widget.H"
+
+1343104642 d:\fltk_64\include\fl\fl_int_input.h
+	"Fl_Input.H"
+
+1343104642 d:\fltk_64\include\fl\fl_simple_counter.h
+	"Fl_Counter.H"
+
+1311050970 d:\fltk_64\include\fl\fl_counter.h
+	"Fl_Valuator.H"
+
+1311050970 d:\fltk_64\include\fl\fl_valuator.h
+	"Fl_Widget.H"
+
+1400655419 d:\fltk_64\include\fl\fl_text_display.h
+	"fl_draw.H"
+	"Fl_Group.H"
+	"Fl_Widget.H"
+	"Fl_Scrollbar.H"
+	"Fl_Text_Buffer.H"
+	<FL/FL_Text_Display.H>
+
+1411053955 d:\fltk_64\include\fl\fl_draw.h
+	<FL/x.H>
+	<FL/Enumerations.H>
+	<FL/Fl_Window.H>
+	<FL/Fl_Device.H>
+
+1414614346 d:\fltk_64\include\fl\x.h
+	"Enumerations.H"
+	"win32.H"
+	"mac.H"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xatom.h>
+	"Fl_Window.H"
+
+1410773705 d:\fltk_64\include\fl\win32.h
+	<windows.h>
+	<FL/Fl_Window.H>
+
+1410618593 d:\fltk_64\include\fl\mac.h
+	<FL/Fl_Widget.H>
+	<ApplicationServices/ApplicationServices.h>
+	"Fl_Window.H"
+	"../src/Fl_Font.H"
+
+1414613462 d:\fltk_64\include\fl\fl_device.h
+	<FL/x.H>
+	<FL/Fl_Plugin.H>
+	<FL/Fl_Image.H>
+	<FL/Fl_Bitmap.H>
+	<FL/Fl_Pixmap.H>
+	<FL/Fl_RGB_Image.H>
+	<stdlib.h>
+
+1311050970 d:\fltk_64\include\fl\fl_plugin.h
+	"Fl_Preferences.H"
+
+1379363114 d:\fltk_64\include\fl\fl_preferences.h
+	<stdio.h>
+	"Fl_Export.H"
+
+1352234774 d:\fltk_64\include\fl\fl_pixmap.h
+	"Fl_Image.H"
+	"x.H"
+
+1311050970 d:\fltk_64\include\fl\fl_rgb_image.h
+	"Fl_Image.H"
+
+1317536713 d:\fltk_64\include\fl\fl_scrollbar.h
+	"Fl_Slider.H"
+
+1338219552 d:\fltk_64\include\fl\fl_slider.h
+	"Fl_Valuator.H"
+
+1412508509 d:\fltk_64\include\fl\fl_help_dialog.h
+	<FL/Fl.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Group.H>
+	<FL/Fl_Button.H>
+	<FL/Fl_Input.H>
+	<FL/Fl_Box.H>
+	<FL/Fl_Help_View.H>
+
+1343104642 d:\fltk_64\include\fl\fl_double_window.h
+	"Fl_Window.H"
+
+1345195086 d:\fltk_64\include\fl\fl_box.h
+	"Fl_Widget.H"
+
+1388413098 d:\fltk_64\include\fl\fl_help_view.h
+	<stdio.h>
+	"Fl.H"
+	"Fl_Group.H"
+	"Fl_Scrollbar.H"
+	"fl_draw.H"
+	"Fl_Shared_Image.H"
+	"filename.H"
+
+1311050970 d:\fltk_64\include\fl\fl_shared_image.h
+	"Fl_Image.H"
+
+1471718520 d:\fltk_64\include\fl\filename.h
+	"Fl_Export.H"
+	<FL/filename.H>
+	<sys/types.h>
+	<direct.h>
+	<sys/types.h>
+	<dirent.h>
+
+1311050970 d:\fltk_64\include\fl\dirent.h
+	"filename.H"
+
+1356173246 source:d:\_vz\_current\muparser\muparser.cpp
+	"muParser.h"
+	"muParserTemplateMagic.h"
+	<cmath>
+	<algorithm>
+	<numeric>
+
+1359731842 source:d:\_vz\_current\muparser\muparserbase.cpp
+	"muParserBase.h"
+	"muParserTemplateMagic.h"
+	<cassert>
+	<cmath>
+	<memory>
+	<vector>
+	<deque>
+	<sstream>
+	<locale>
+	<omp.h>
+
+1359731896 source:d:\_vz\_current\muparser\muparserbytecode.cpp
+	"muParserBytecode.h"
+	<cassert>
+	<string>
+	<stack>
+	<vector>
+	<iostream>
+	"muParserDef.h"
+	"muParserError.h"
+	"muParserToken.h"
+	"muParserStack.h"
+	"muParserTemplateMagic.h"
+
+1327250514 source:d:\_vz\_current\muparser\muparsercallback.cpp
+	"muParserCallback.h"
+
+1356173246 source:d:\_vz\_current\muparser\muparsererror.cpp
+	"muParserError.h"
+
+1471718848 source:d:\_vz\_current\muparser\muparsertokenreader.cpp
+	<cassert>
+	<cstdio>
+	<cstring>
+	<map>
+	<stack>
+	<string>
+	"muParserTokenReader.h"
+	"muParserBase.h"
+
+1252848780 source:d:\_vz\_current\resource.rc
+	"resource.h"
+
+1252848750 d:\_vz\_current\resource.h
+
+1356708148 source:d:\_vz\_current\str_numb_convert.cpp
+	"str_numb_convert.h"
+

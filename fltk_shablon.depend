@@ -1,0 +1,198 @@
+# depslib dependency file v1.0
+1361108520 source:d:\__vz\_temp\fltk\fltk_shablon\main.cpp
+	"main_form.h"
+
+1350506058 c:\dev-cpp\include\fl\fl.h
+	<FL/Fl_Cairo.H>
+	"fl_utf8.h"
+	"Enumerations.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_cairo.h
+	<FL/Fl_Export.H>
+	<cairo-xlib.h>
+	<cairo-win32.h>
+	<cairo-quartz.h>
+
+1350506058 c:\dev-cpp\include\fl\fl_export.h
+
+1350506058 c:\dev-cpp\include\fl\fl_utf8.h
+	"Fl_Export.H"
+	"fl_types.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<locale.h>
+	<ctype.h>
+	<wchar.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"Xutf8.h"
+	<X11/Xlocale.h>
+	<X11/Xlib.h>
+	<locale.h>
+
+1350506058 c:\dev-cpp\include\fl\fl_types.h
+
+1350506058 c:\dev-cpp\include\fl\xutf8.h
+	<X11/X.h>
+	<X11/Xlib.h>
+	<X11/Xlocale.h>
+	<X11/Xutil.h>
+
+1350506058 c:\dev-cpp\include\fl\enumerations.h
+	"Fl_Export.H"
+	"fl_types.h"
+
+1361127156 d:\__vz\_temp\fltk\fltk_shablon\main_form.h
+	<FL/Fl.H>
+	<Fl/Fl_Window.h>
+	<Fl/Fl_Return_Button.h>
+	<Fl/Fl_Int_Input.h>
+	<Fl/Fl_Simple_Counter.h>
+	<FL/Fl_Text_Buffer.H>
+	<Fl/Fl_Text_Display.h>
+
+1350506058 c:\dev-cpp\include\fl\fl_window.h
+	"Fl_Group.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_group.h
+	"Fl_Widget.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_widget.h
+	"Enumerations.H"
+	<stdint.h>
+	<stddef.h>
+
+1350506058 c:\dev-cpp\include\fl\fl_button.h
+	"Fl_Widget.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_output.h
+	"Fl_Input.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_input.h
+	"Fl_Input_.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_input_.h
+	"Fl_Widget.H"
+
+1361130370 source:d:\__vz\_temp\fltk\fltk_shablon\main_form.cpp
+	"main_form.h"
+	<FL/fl_ask.H>
+	"resource.h"
+	<fstream>
+	"functions.h"
+
+1350506058 c:\dev-cpp\include\fl\fl_ask.h
+	"Enumerations.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_counter.h
+	"Fl_Valuator.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_valuator.h
+	"Fl_Widget.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_simple_counter.h
+	"Fl_Counter.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_int_input.h
+	"Fl_Input.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_multiline_output.h
+	"Fl_Output.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_return_button.h
+	"Fl_Button.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_text_buffer.h
+	<assert.h>
+	"Fl_Export.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_text_display.h
+	"fl_draw.H"
+	"Fl_Group.H"
+	"Fl_Widget.H"
+	"Fl_Scrollbar.H"
+	"Fl_Text_Buffer.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_draw.h
+	<FL/x.H>
+	<FL/Enumerations.H>
+	<FL/Fl_Window.H>
+	<FL/Fl_Device.H>
+
+1350506058 c:\dev-cpp\include\fl\x.h
+	"Enumerations.H"
+	"win32.H"
+	"mac.H"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xatom.h>
+	"Fl_Window.H"
+	"Xutf8.h"
+
+1350506058 c:\dev-cpp\include\fl\win32.h
+	<windows.h>
+	<FL/Fl_Window.H>
+
+1350506058 c:\dev-cpp\include\fl\mac.h
+	<FL/Fl_Widget.H>
+	<AvailabilityMacros.h>
+	<ApplicationServices/ApplicationServices.h>
+	"Fl_Window.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_device.h
+	<FL/x.H>
+	<FL/Fl_Plugin.H>
+	<FL/Fl_Image.H>
+	<FL/Fl_Bitmap.H>
+	<FL/Fl_Pixmap.H>
+	<FL/Fl_RGB_Image.H>
+
+1350506058 c:\dev-cpp\include\fl\fl_plugin.h
+	"Fl_Preferences.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_preferences.h
+	<stdio.h>
+	"Fl_Export.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_image.h
+	"Enumerations.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_bitmap.h
+	"Fl_Image.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_pixmap.h
+	"Fl_Image.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_rgb_image.h
+	"Fl_Image.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_scrollbar.h
+	"Fl_Slider.H"
+
+1350506058 c:\dev-cpp\include\fl\fl_slider.h
+	"Fl_Valuator.H"
+
+1356704482 d:\__vz\_temp\fltk\fltk_shablon\functions.h
+	<FL/Fl_Text_Buffer.H>
+	"str_numb_convert.h"
+
+1361127286 source:d:\__vz\_temp\fltk\fltk_shablon\functions.cpp
+	"functions.h"
+
+1353275158 d:\__vz\_temp\fltk\fltk_shablon\str_numb_convert.h
+	<iostream>
+	<sstream>
+	<typeinfo>
+
+1356704548 source:d:\__vz\_temp\fltk\fltk_shablon\str_numb_convert.cpp
+	"str_numb_convert.h"
+
+1252848780 source:d:\__vz\_temp\fltk\fltk_shablon\resource.rc
+	"resource.h"
+
+1252848750 d:\__vz\_temp\fltk\fltk_shablon\resource.h
+

@@ -1,0 +1,88 @@
+<HTML>
+ <HEAD>
+  <TITLE>Canonical expansion</TITLE>
+ </HEAD>
+ <BODY>
+
+   <CENTER>
+  <H2>
+    CANONICAL EXPANSION <BR>
+   of natural number N = f(n), <BR>
+   n = minimun n,...,maximum n.
+  </H2>
+  </CENTER>
+   &nbsp; V.Zenkin (2013, <A HREF = "mailto:v_zenk@mail.ru">v_zenk@mail.ru</A>).
+   Used code muParser (Rev 2.2.3 22.12.2012) 
+   <A HREF="http://muparser.beltoforion.de/">http://muparser.beltoforion.de/</A>
+    by Ingo Berg.
+   <BR>
+   <BR>
+   <CENTER>
+   <H2>
+   &nbsp; <A NAME = "functions">Built-in functions </A>
+   </H2>
+    <table border="1">
+     <thead>
+       <tr>
+         <td><b>Name</b></td>  <td><b>Argc</b></td>  <td><b>Explanation</b></td>
+       </tr>
+     </thead>
+     <tbody>
+       <tr><td><code>sin</code></td>   <td align="center">1</td>     <td>sine function</td></tr>
+       <tr><td><code>cos</code></td>   <td align="center">1</td>     <td>cosine function</td></tr>
+       <tr><td><code>tan</code></td>   <td align="center">1</td>     <td>tangens function</td></tr>
+       <tr><td><code>asin</code></td>  <td align="center">1</td>     <td>arcus sine function</td></tr>
+       <tr><td><code>acos</code></td>  <td align="center">1</td>     <td>arcus cosine function</td></tr>
+       <tr><td><code>atan</code></td>  <td align="center">1</td>     <td>arcus tangens function</td></tr>
+       <tr><td><code>sinh</code></td>  <td align="center">1</td>     <td>hyperbolic sine function</td></tr>
+       <tr><td><code>cosh</code></td>  <td align="center">1</td>     <td>hyperbolic cosine</td></tr>
+       <tr><td><code>tanh</code></td>  <td align="center">1</td>     <td>hyperbolic tangens function</td></tr>
+       <tr><td><code>asinh</code></td> <td align="center">1</td>     <td>hyperbolic arcus sine function</td></tr>
+       <tr><td><code>acosh</code></td> <td align="center">1</td>     <td>hyperbolic arcus tangens function</td></tr>
+       <tr><td><code>atanh</code></td> <td align="center">1</td>     <td>hyperbolic arcur tangens function</td></tr>
+       <tr><td><code>log2</code></td>  <td align="center">1</td>     <td>logarithm to the base 2</td></tr>
+       <tr><td><code>log10</code></td> <td align="center">1</td>     <td>logarithm to the base 10</td></tr>
+       <tr><td><code>log</code></td>   <td align="center">1</td>     <td>logarithm to the base 10</td></tr>
+       <tr><td><code>ln</code></td>    <td align="center">1</td>     <td>logarithm to base e (2.71828...)</td></tr>
+       <tr><td><code>exp</code></td>   <td align="center">1</td>     <td>e raised to the power of x</td></tr>
+       <tr><td><code>sqrt</code></td>  <td align="center">1</td>     <td>square root of a value</td></tr>
+       <tr><td><code>sign</code></td>  <td align="center">1</td>     <td>sign function -1 if x&lt;0; 1 if x&gt;0</td></tr>
+       <tr><td><code>rint</code></td>  <td align="center">1</td>     <td>round to nearest integer</td></tr>
+       <tr><td><code>abs</code></td>   <td align="center">1</td>     <td>absolute value</td></tr>
+       <tr><td><code>min</code></td>   <td align="center">var.</td>  <td>min of all arguments</td></tr>
+       <tr><td><code>max</code></td>   <td align="center">var.</td>  <td>max of all arguments</td></tr>
+       <tr><td><code>sum</code></td>   <td align="center">var.</td>  <td>sum of all arguments</td></tr>
+       <tr><td><code>avg</code></td>   <td align="center">var.</td>  <td>mean value of all arguments</td></tr>
+     </tbody>
+  </table>
+    </CENTER>
+    <CENTER>
+    <H4>
+      &nbsp; <A NAME = "operators">Built-in binary operators</A>
+    </H4>
+
+ <table border="1">
+	<thead>
+	  <tr><td><b>Operator</b></td>          <td><b>Meaning</b></td>             <td><b>Priority</b></td></tr>
+	</thead>
+
+	<tbody>
+	  <tr><td><code>=</code></td>           <td>assignement</td>                <td>-1</td></tr>
+	  <tr><td><code>&amp;&amp;</code></td>  <td>logical and</td>                <td> 1</td></tr>
+	  <tr><td><code>||</code></td>          <td>logical or</td>                 <td> 2</td></tr>
+	  <tr><td><code>&lt;=</code></td>       <td>less or equal</td>              <td> 4</td></tr>
+	  <tr><td><code>&gt;=</code></td>       <td>greater or equal</td>           <td> 4</td></tr>
+	  <tr><td><code>!=</code></td>          <td>not equal</td>                  <td> 4</td></tr>
+	  <tr><td><code>==</code></td>          <td>equal</td>                      <td> 4</td></tr>
+	  <tr><td><code>&gt;</code></td>        <td>greater than</td>               <td> 4</td></tr>
+	  <tr><td><code>&lt;</code></td>        <td>less than</td>                  <td> 4</td></tr>
+	  <tr><td><code>+</code></td>           <td>addition</td>                   <td> 5</td></tr>
+	  <tr><td><code>-</code></td>           <td>subtraction</td>                <td> 5</td></tr>
+	  <tr><td><code>*</code></td>           <td>multiplication</td>             <td> 6</td></tr>
+	  <tr><td><code>/</code></td>           <td>division</td>                   <td> 6</td></tr>
+	  <tr><td><code>^</code></td>           <td>raise x to the power of y</td>  <td> 7</td></tr>
+	</tbody>
+</table>
+  </CENTER>
+  </BODY>
+</HTML>
